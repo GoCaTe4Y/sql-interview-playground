@@ -9,8 +9,12 @@
 | **[`sql-practice-en.html`](sql-practice-en.html)** | English |
 | **[`sql-practice-zh.html`](sql-practice-zh.html)** | 中文版  |
 
-> **If progress doesn't save**, your browser is blocking `localStorage` on `file://` URLs —
-> the page shows a red banner when this happens. Serve it locally instead:
+> **Progress saves itself.** Every submission, star and note is written the moment you make it,
+> to both `localStorage` and `IndexedDB`, so one being blocked or cleared can't lose your record.
+> The top bar shows the last save time. Nothing manual is ever required.
+>
+> In the rare case a browser blocks both (some `file://` setups), the page says so in a red
+> banner. Serving it locally restores autosaving:
 > ```bash
 > python3 -m http.server 8000
 > # then open http://localhost:8000/sql-practice-en.html
@@ -53,8 +57,8 @@ a row can't slip past the first.
 | ⚪ grey | not attempted |
 
 Any status can be overridden by hand. Star problems for review, write notes on them, filter by
-any of it. Everything is saved to `localStorage` and survives closing the tab; export/import
-moves it as JSON.
+any of it. All of it autosaves to two independent browser stores and survives closing the tab —
+export/import exists only for moving progress to another machine, never as a required step.
 
 Of the 177: **146 are auto-graded**, 11 are demos (`EXPLAIN` plans — no single correct result
 set), and 20 are discussion questions with no SQL to write.
