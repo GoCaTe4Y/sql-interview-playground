@@ -45,7 +45,12 @@ per-column value vectors. The second exists so that swapping values *between* tw
 a row can't slip past the first.
 
 **Every submission is logged** with its timestamp and verdict, and failures record *why*
-(wrong column count, wrong row count, which rows disagree).
+(wrong column count, wrong row count, which rows disagree). Submissions that **pass** also keep
+the SQL you wrote, so each problem builds a record of the solution you actually arrived at.
+
+**The reference answer is revealed once you have attempted a problem** — right or wrong. It
+appears in a read-only pane under the editor, so your own query is never overwritten and the
+revealed answer can't be swept into your next submission.
 
 **A contents heatmap** shows all 177 problems at a glance:
 
