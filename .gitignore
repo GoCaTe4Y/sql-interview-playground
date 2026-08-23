@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+out/
+
+# The verbatim answer write-up is a near-complete copy of someone else's course
+# material. It is deliberately NOT committed. If you have the right to publish
+# it (or wrote it yourself), drop this line and add the file.
+answers-reference.md
