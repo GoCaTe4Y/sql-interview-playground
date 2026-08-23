@@ -1,12 +1,5 @@
 # SQL Interview Playground · SQL 面试题练习台
 
-A **single-file** SQL practice environment. A SQLite engine (WASM) and a 50,000-row e-commerce
-dataset are embedded directly into one HTML file — open it in a browser and start writing queries.
-No server, no install, no internet, no account.
-
-一个**打开就能用**的 SQL 练习环境：把 SQLite 引擎和一套 5 万行的电商数据集直接嵌进单个 HTML 文件里，
-双击就能在浏览器里写 SQL、跑查询、自动判分。不需要服务器，不需要联网，不需要装数据库。
-
 ---
 
 ## Download · 下载
