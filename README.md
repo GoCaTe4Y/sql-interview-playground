@@ -6,18 +6,11 @@
 
 | File | |
 |---|---|
-| **[`sql-practice-en.html`](sql-practice-en.html)** | English — English UI, questions **and data** |
-| **[`sql-practice-zh.html`](sql-practice-zh.html)** | 中文版 —— 中文界面、题目与数据 |
-
-Download one and open it in your browser. That's the whole install.
-
-下载其中一个，用浏览器打开即可。
+| **[`sql-practice-en.html`](sql-practice-en.html)** | English |
+| **[`sql-practice-zh.html`](sql-practice-zh.html)** | 中文版  |
 
 > **If progress doesn't save**, your browser is blocking `localStorage` on `file://` URLs —
 > the page shows a red banner when this happens. Serve it locally instead:
->
-> **如果进度保存不上**（页面顶部会出现红色提示条），用本地服务器打开即可：
->
 > ```bash
 > python3 -m http.server 8000
 > # then open http://localhost:8000/sql-practice-en.html
